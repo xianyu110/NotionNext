@@ -74,6 +74,7 @@ const LayoutBase = props => {
         id="wrapper-outer"
         className={'flex-grow w-full max-w-[86rem] mx-auto relative md:px-5'}
       >
+
         <div
           id="container-inner"
           className={

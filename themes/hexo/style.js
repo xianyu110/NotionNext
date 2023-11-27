@@ -68,7 +68,6 @@ const Style = () => {
         scrollbar-width:thin;
         scrollbar-color: #49b1f5 transparent
     }
-    
 
   `}</style>)
 }

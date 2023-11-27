@@ -60,6 +60,7 @@ function generateIframeContent(element) {
         color-scheme: light;
       }
     </style>
+    
   </head>
   <body>
     <div id="root"></div>
