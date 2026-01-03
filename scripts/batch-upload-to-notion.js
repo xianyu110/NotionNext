@@ -51,8 +51,16 @@ async function createNotionPage(article) {
   // 构建文章内容块（简化版：将整个内容作为代码块）
   const children = []
 
-  // 解析 Markdown 内容
-  const lines = article.content.split('\n')
+  // 预处理：合并被换行的图片链接
+  let processedContent = article.content
+    // 处理 ![alt](https://xxx-\nyyy.png) 格式
+    .replace(/!\[([^\]]*)\]\((https?:\/\/[^\s)]*?-)\s*\n\s*([^\s)]+)\)/g, '![$1]($2$3)')
+    // 处理 ![alt](\nhttps://xxx.png) 格式
+    .replace(/!\[([^\]]*)\]\(\s*\n\s*(https?:\/\/[^\s)]+)\)/g, '![$1]($2)')
+    // 处理 ![alt](https://xxx.png\n) 格式
+    .replace(/!\[([^\]]*)\]\((https?:\/\/[^\s)]+)\s*\n\s*\)/g, '![$1]($2)')
+
+  const lines = processedContent.split('\n')
   let i = 0
 
   while (i < lines.length && children.length < 100) {
@@ -63,21 +71,26 @@ async function createNotionPage(article) {
       continue
     }
 
-    // 图片 ![alt](url)
-    const imageMatch = line.match(/^!\[(.*?)\]\((https?:\/\/[^\s)]+)\)/)
+    // 图片 ![alt](url) - 支持行内图片
+    const imageMatch = line.match(/!\[([^\]]*)\]\((https?:\/\/[^\s)]+)\)/)
     if (imageMatch) {
-      const [, alt, url] = imageMatch
-      children.push({
-        object: 'block',
-        type: 'image',
-        image: {
-          type: 'external',
-          external: { url },
-          caption: alt ? [{ text: { content: alt } }] : []
-        }
-      })
-      i++
-      continue
+      const [fullMatch, alt, url] = imageMatch
+
+      // 如果整行就是图片，添加图片块
+      if (line === fullMatch) {
+        children.push({
+          object: 'block',
+          type: 'image',
+          image: {
+            type: 'external',
+            external: { url },
+            caption: alt ? [{ text: { content: alt } }] : []
+          }
+        })
+        i++
+        continue
+      }
+      // 否则作为段落处理（行内图片）
     }
 
     // 标题
