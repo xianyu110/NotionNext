@@ -1,16 +1,22 @@
 ---
 title: Gemini官网入口：Google AI Gemini 2.5 Pro国内使用指南【2026年1月更新】
+description: Google Gemini 2.5 Pro国内免费使用教程，支持2M超长上下文和Deep Think深度思考。提供Gemini镜像站、API接入、多模态功能详解，无需翻墙体验Google DeepMind最强AI模型。
+keywords: Gemini,Gemini 2.5 Pro,Gemini国内,Google AI,Gemini官网,Gemini中国,Gemini镜像站,Gemini 2M上下文,Deep Think,Google DeepMind
 date: 2026-01-04
+updated: 2026-01-04
 tags:
   - 人工智能
   - Gemini
   - Google AI
   - Gemini 2.5 Pro
+  - 国内使用
+  - 多模态AI
 category: 人工智能
 summary: 国内能轻松使用的Google Gemini 2.5 Pro中文版，无需翻墙，支持2M超长上下文和Deep Think深度思考模式。本指南提供全面的Gemini国内使用方法，包括Gemini 2.5 Pro网页版入口、国内镜像站推荐、API接入教程，助您体验Google最强AI。
 slug: gemini-2-5-pro-china-guide-2026
 author: MaynorAI
 status: Published
+type: Post
 ---
 
 # Gemini官网入口：Google AI Gemini 2.5 Pro国内使用指南【2026年1月更新】

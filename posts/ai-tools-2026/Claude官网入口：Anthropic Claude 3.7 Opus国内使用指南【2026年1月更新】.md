@@ -1,12 +1,16 @@
 ---
 title: Claude官网入口：Anthropic Claude 3.7 Opus国内使用指南【2026年1月更新】
+description: Claude 3.7 Opus国内使用指南，Anthropic最聪明的AI助手，代码能力超越GPT-4，支持200K超长上下文。提供Claude镜像站、编程实战、学术写作案例，无需翻墙体验顶级AI。
+keywords: Claude,Claude 3.7,Claude Opus,Claude国内,Anthropic,Claude官网,Claude镜像站,Claude代码,Claude中文,AI助手
 date: 2026-01-04
-tags: [人工智能, Claude, Anthropic, Claude 3.7]
+updated: 2026-01-04
+tags: [人工智能, Claude, Anthropic, Claude 3.7, 国内使用, 编程AI]
 category: 人工智能
 summary: 国内能轻松使用的Claude 3.7 Opus中文版，无需翻墙，支持200K超长上下文。本指南提供Claude国内镜像站、API接入、代码生成实战案例，助您体验Anthropic最聪明的AI助手。
 slug: claude-3-7-opus-china-guide-2026
 author: MaynorAI
 status: Published
+type: Post
 ---
 
 # Claude官网入口：Anthropic Claude 3.7 Opus国内使用指南【2026年1月更新】

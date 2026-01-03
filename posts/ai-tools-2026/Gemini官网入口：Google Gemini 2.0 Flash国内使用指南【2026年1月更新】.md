@@ -1,12 +1,16 @@
 ---
 title: Gemini官网入口：Google Gemini 2.0 Flash国内使用指南【2026年1月更新】
+description: Google Gemini 2.0 Flash国内使用指南，速度最快的多模态AI，适合实时应用。提供Gemini镜像站、快速响应特点、适用场景，无需翻墙体验闪电AI。
+keywords: Gemini,Gemini 2.0 Flash,Gemini Flash,Gemini国内,Google AI,Gemini快速,实时AI,Gemini中文,多模态AI,高速AI
 date: 2026-01-04
-tags: [人工智能, Gemini, Google AI, Gemini 2.0 Flash]
+updated: 2026-01-04
+tags: [人工智能, Gemini, Google AI, Gemini 2.0 Flash, 国内使用, 高速AI]
 category: 人工智能
 summary: Gemini 2.0 Flash国内使用指南，Google最快的多模态AI模型，响应速度比Gemini 2.5 Pro快5倍且完全免费。本指南提供Flash模型特点、适用场景、国内镜像站推荐。
 slug: gemini-2-0-flash-china-guide-2026
 author: MaynorAI
 status: Published
+type: Post
 ---
 
 # Gemini官网入口：Google Gemini 2.0 Flash国内使用指南【2026年1月更新】
