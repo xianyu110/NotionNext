@@ -62,7 +62,7 @@ async function createNotionPage(article) {
     if (text.length === 0) continue
 
     // 检测图片 ![alt](url)
-    const imageMatch = text.match(/^!\[(.*?)\]\((https?:\/\/.*?)\)/)
+    const imageMatch = text.match(/!\[(.*?)\]\((https?:\/\/[^\s)]+)\)/)
     if (imageMatch) {
       const [, alt, url] = imageMatch
       children.push({
