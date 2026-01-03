@@ -51,18 +51,20 @@ async function createNotionPage(article) {
   // 构建文章内容块（简化版：将整个内容作为代码块）
   const children = []
 
-  // 添加文章内容（分段处理，避免超过 Notion 限制）
-  const contentParagraphs = article.content
-    .split('\n\n')
-    .filter(p => p.trim())
-    .slice(0, 50) // Notion API 限制每次最多 100 个块
+  // 解析 Markdown 内容
+  const lines = article.content.split('\n')
+  let i = 0
 
-  for (const paragraph of contentParagraphs) {
-    const text = paragraph.trim()
-    if (text.length === 0) continue
+  while (i < lines.length && children.length < 100) {
+    const line = lines[i].trim()
 
-    // 检测图片 ![alt](url)
-    const imageMatch = text.match(/!\[(.*?)\]\((https?:\/\/[^\s)]+)\)/)
+    if (!line) {
+      i++
+      continue
+    }
+
+    // 图片 ![alt](url)
+    const imageMatch = line.match(/^!\[(.*?)\]\((https?:\/\/[^\s)]+)\)/)
     if (imageMatch) {
       const [, alt, url] = imageMatch
       children.push({
@@ -74,36 +76,160 @@ async function createNotionPage(article) {
           caption: alt ? [{ text: { content: alt } }] : []
         }
       })
+      i++
       continue
     }
 
-    // 检测标题
-    if (text.startsWith('### ')) {
+    // 标题
+    if (line.startsWith('#### ')) {
       children.push({
         object: 'block',
         type: 'heading_3',
         heading_3: {
-          rich_text: [{ text: { content: text.replace('### ', '') } }]
+          rich_text: [{ text: { content: line.replace('#### ', '').substring(0, 2000) } }]
         }
       })
-    } else if (text.startsWith('## ')) {
+      i++
+      continue
+    }
+
+    if (line.startsWith('### ')) {
+      children.push({
+        object: 'block',
+        type: 'heading_3',
+        heading_3: {
+          rich_text: [{ text: { content: line.replace('### ', '').substring(0, 2000) } }]
+        }
+      })
+      i++
+      continue
+    }
+
+    if (line.startsWith('## ')) {
       children.push({
         object: 'block',
         type: 'heading_2',
         heading_2: {
-          rich_text: [{ text: { content: text.replace('## ', '') } }]
+          rich_text: [{ text: { content: line.replace('## ', '').substring(0, 2000) } }]
         }
       })
-    } else if (text.startsWith('# ')) {
+      i++
+      continue
+    }
+
+    if (line.startsWith('# ')) {
       children.push({
         object: 'block',
         type: 'heading_1',
         heading_1: {
-          rich_text: [{ text: { content: text.replace('# ', '') } }]
+          rich_text: [{ text: { content: line.replace('# ', '').substring(0, 2000) } }]
         }
       })
-    } else {
-      // 普通段落，自动拆分超长内容
+      i++
+      continue
+    }
+
+    // 代码块
+    if (line.startsWith('```')) {
+      const lang = line.substring(3).trim() || 'plain text'
+      i++
+      const codeLines = []
+      while (i < lines.length && !lines[i].trim().startsWith('```')) {
+        codeLines.push(lines[i])
+        i++
+      }
+      const code = codeLines.join('\n').substring(0, 2000)
+      children.push({
+        object: 'block',
+        type: 'code',
+        code: {
+          language: lang,
+          rich_text: [{ text: { content: code } }]
+        }
+      })
+      i++
+      continue
+    }
+
+    // 引用
+    if (line.startsWith('> ')) {
+      const quoteLines = []
+      while (i < lines.length && lines[i].trim().startsWith('> ')) {
+        quoteLines.push(lines[i].trim().substring(2))
+        i++
+      }
+      const quote = quoteLines.join('\n').substring(0, 2000)
+      children.push({
+        object: 'block',
+        type: 'quote',
+        quote: {
+          rich_text: [{ text: { content: quote } }]
+        }
+      })
+      continue
+    }
+
+    // 无序列表
+    if (line.match(/^[\*\-\+]\s/)) {
+      const listItems = []
+      while (i < lines.length && lines[i].trim().match(/^[\*\-\+]\s/)) {
+        listItems.push(lines[i].trim().substring(2))
+        i++
+      }
+      listItems.forEach(item => {
+        children.push({
+          object: 'block',
+          type: 'bulleted_list_item',
+          bulleted_list_item: {
+            rich_text: [{ text: { content: item.substring(0, 2000) } }]
+          }
+        })
+      })
+      continue
+    }
+
+    // 有序列表
+    if (line.match(/^\d+\.\s/)) {
+      const listItems = []
+      while (i < lines.length && lines[i].trim().match(/^\d+\.\s/)) {
+        listItems.push(lines[i].trim().replace(/^\d+\.\s/, ''))
+        i++
+      }
+      listItems.forEach(item => {
+        children.push({
+          object: 'block',
+          type: 'numbered_list_item',
+          numbered_list_item: {
+            rich_text: [{ text: { content: item.substring(0, 2000) } }]
+          }
+        })
+      })
+      continue
+    }
+
+    // 分隔线
+    if (line.match(/^[\-\*_]{3,}$/)) {
+      children.push({
+        object: 'block',
+        type: 'divider',
+        divider: {}
+      })
+      i++
+      continue
+    }
+
+    // 普通段落
+    const paraLines = []
+    while (i < lines.length && lines[i].trim() &&
+           !lines[i].trim().match(/^[#>\-\*\+\d]/) &&
+           !lines[i].trim().startsWith('```') &&
+           !lines[i].trim().startsWith('!')) {
+      paraLines.push(lines[i])
+      i++
+    }
+
+    if (paraLines.length > 0) {
+      const text = paraLines.join('\n').trim()
       if (text.length > 2000) {
         const chunks = text.match(/.{1,1999}/g) || [text]
         chunks.forEach(chunk => {
@@ -124,6 +250,8 @@ async function createNotionPage(article) {
           }
         })
       }
+    } else {
+      i++
     }
   }
 
