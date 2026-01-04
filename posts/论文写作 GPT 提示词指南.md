@@ -223,7 +223,7 @@ status: "Published"
 
 ### ChatGPT 国内使用
 
-👉 即刻体验：https://agi.maynor1024.live/
+👉 即刻体验：https://chatgpt-plus.top/
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

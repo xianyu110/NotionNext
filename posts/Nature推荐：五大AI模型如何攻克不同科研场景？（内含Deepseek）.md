@@ -288,5 +288,5 @@ Gemini 2.0 Flash 在 1.5 Flash 的基础上进一步优化，在相同的响应�
 
 ![image-20250314145021213](https://i-blog.csdnimg.cn/img_convert/8c18e90385e56b95cb9c43237f9ecfed.png)
 
-**访问地址** ：<https://agi.maynor1024.live/>
+**访问地址** ：<https://chatgpt-plus.top/>
 

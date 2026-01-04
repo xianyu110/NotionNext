@@ -53,7 +53,7 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://github.com/xianyu110',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://agi2.maynor1024.live',
+  HEO_INFO_CARD_URL3: 'https://chatgpt-plus.top',
   HEO_INFO_CARD_TEXT3: 'AI 聚合平台',
 
   // 用户技能图标
@@ -112,7 +112,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: 'AI 工具平台',
   HEO_SOCIAL_CARD_TITLE_2: '体验全球顶级 AI 模型聚合服务',
   HEO_SOCIAL_CARD_TITLE_3: '立即访问 MaynorAI',
-  HEO_SOCIAL_CARD_URL: 'http://maynorai.top',
+  HEO_SOCIAL_CARD_URL: 'https://chatgpt-plus.top',
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',

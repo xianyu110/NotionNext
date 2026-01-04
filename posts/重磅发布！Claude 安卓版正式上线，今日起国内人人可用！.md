@@ -83,5 +83,5 @@ Claude 安卓版 App 目前提供以下主要功能：
 
 在公众号后台回复 **克劳德** 获取下载链接并安装。
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

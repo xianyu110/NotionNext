@@ -47,5 +47,5 @@ https://claude-opus.top/list（需注册）
 
 借助Claude的强大功能,让我们一起探索AI辅助写作的无限可能,提升创作效率,激发写作灵感!
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

@@ -26,7 +26,7 @@ image-20250618151703169
 
 一个集成了谷歌 `gemini-2.5-pro` 推理模型的平台已经为您准备就绪，专为处理复杂任务而生。
 
-  * **体验地址** ： <https://agi.maynor1024.live/list/#/>
+  * **体验地址** ： <https://chatgpt-plus.top/list/#/>
   * **操作指南** ：访问网站后，选择 **SaaSGPT节点** ，在 **Gemini分组** 中就能找到并开始使用！ 
 
 ![image-20250618145005983](https://i-blog.csdnimg.cn/img_convert/2a4fe0208f2984f1016269b791dd3647.png)

@@ -24,7 +24,7 @@ status: "Published"
 
 ChatGPT国内使用：
 
-https://agi.maynor1024.live/list/#/
+https://chatgpt-plus.top/list/#/
 
 #### 问题 1：台风分类评价模型
 
@@ -101,10 +101,10 @@ blog.csdnimg.cn/img_convert/0575047856f75a3a1085d2c1b09803b2.jpeg) 问题3分析
 
 ChatGPT国内使用：
 
-https://agi.maynor1024.live/list/#/
+https://chatgpt-plus.top/list/#/
 
 ![alt](https://img-
 blog.csdnimg.cn/img_convert/332bbef9d6ac24f64d67a821e5b0a2f9.png)
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

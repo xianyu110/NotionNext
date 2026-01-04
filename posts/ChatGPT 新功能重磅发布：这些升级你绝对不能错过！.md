@@ -35,7 +35,7 @@ status: "Published"
 
 #### 1\. ChatGPT 国内访问
 
-访问网址：🌐 https://agi.maynor1024.live/list
+访问网址：🌐 https://chatgpt-plus.top/list
 
 ![alt](https://img-
 blog.csdnimg.cn/img_convert/a0c467e9f6d8d1566c9bb02ee1f284d1.png)
@@ -171,10 +171,10 @@ c5ce99bc6374f911adb193ddf327677
 
 * * *
 
-访问 ChatGPT 国内使用网址：🌐 https://agi.maynor1024.live/list
+访问 ChatGPT 国内使用网址：🌐 https://chatgpt-plus.top/list
 
 扫码即可免费体验 ![alt](https://img-
 blog.csdnimg.cn/img_convert/880e40714b51dfd94f37a9abb34d76e1.png)
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

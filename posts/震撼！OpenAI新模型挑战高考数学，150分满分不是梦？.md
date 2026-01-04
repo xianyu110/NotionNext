@@ -65,5 +65,5 @@ blog.csdnimg.cn/img_convert/be7af49fa604c9f407ba91435f3ac2ad.png) alt text
 
 2024年9月12日，OpenAI O1模型发布。或许，这同样是一个值得铭记的日子。因为，它预示着****的诞生，开启了人工智能发展的新纪元。
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

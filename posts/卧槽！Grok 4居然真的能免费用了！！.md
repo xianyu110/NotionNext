@@ -37,7 +37,7 @@ status: "Published"
 别担心！我们已经为您筛选并亲身验证了一个稳定且功能强大的聚合平台：
 
 ####
-**MaynorAI:[https://agi2.maynor1024.live/](https://agi2.maynor1024.live/list/#/)**
+**MaynorAI:[https://chatgpt-plus.top/](https://chatgpt-plus.top/list/#/)**
 
 **强烈推荐，首选平台！** (直接在浏览器中搜索或打开即可)
 

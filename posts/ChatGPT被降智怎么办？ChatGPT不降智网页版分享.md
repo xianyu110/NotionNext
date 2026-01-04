@@ -57,7 +57,7 @@ status: "Published"
 
   4. 在中文语境处理方面表现优异
 
-访问地址：https://agi.maynor1024.live/list/
+访问地址：https://chatgpt-plus.top/list/
 
 ![image-20250312175257656](https://i-blog.csdnimg.cn/img_convert/d37652cc5cd6be8a00b196a1e9912353.png)
 

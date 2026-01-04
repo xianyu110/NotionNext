@@ -108,5 +108,5 @@ Claude 3.5本就具备强大的基础能力，融合了Thinking Claude的思维�
 感谢 **@Richards Tu (涂津豪)** 的杰出创作以及 **@数字生命卡兹克**
 卡神的推荐分享，让我们有机会体验这一神级Prompt，带来如此强大的Claude 3.5！
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

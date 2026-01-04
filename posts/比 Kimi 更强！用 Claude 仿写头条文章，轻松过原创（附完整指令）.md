@@ -127,5 +127,5 @@ https://claude-opus.top/list/
 
 如果有任何问题，欢迎在评论区提问，或者加好友进群交流。觉得本文有用的话，**别忘了点个赞，分享给有需要的小伙伴哦～**
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

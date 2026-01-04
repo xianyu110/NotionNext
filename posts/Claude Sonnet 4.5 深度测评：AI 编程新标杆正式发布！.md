@@ -209,8 +209,8 @@ Claude Sonnet 4.5 现已在多个平台同步上线：
   
 ### 国内访问地址：
 
-<https://agi.maynor1024.live/list/#/>[  
-](https://agi.maynor1024.live/list/#/)
+<https://chatgpt-plus.top/list/#/>[  
+](https://chatgpt-plus.top/list/#/)
 
 #### 定价信息
 

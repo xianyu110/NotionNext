@@ -14,7 +14,7 @@ status: "Published"
 
 ### ChatGPT国内使用
 
-_https://agi.maynor1024.live_
+_https://chatgpt-plus.top_
 
 ![image-20241101085628889](https://img-
 blog.csdnimg.cn/img_convert/b82c507694f875b0a571f2015ced4bdf.png)
@@ -76,7 +76,7 @@ blog.csdnimg.cn/img_convert/81ada5a6357675cd529a48fe03ab4dac.png) img
 
 ### ChatGPT国内使用
 
-_https://agi.maynor1024.live_
+_https://chatgpt-plus.top_
 
 ![image-20241101085628889](https://img-
 blog.csdnimg.cn/img_convert/b82c507694f875b0a571f2015ced4bdf.png)
@@ -136,7 +136,7 @@ blog.csdnimg.cn/img_convert/2c919be4be8a65392fe057a2986f43af.png) img
 
 ### ChatGPT国内使用
 
-_https://agi.maynor1024.live_
+_https://chatgpt-plus.top_
 
 ![image-20241101085628889](https://img-
 blog.csdnimg.cn/img_convert/b82c507694f875b0a571f2015ced4bdf.png)
@@ -185,7 +185,7 @@ blog.csdnimg.cn/img_convert/7500164cabb2fc54eb1d6e05afc2774d.png) img
 
 ### ChatGPT国内使用
 
-_https://agi.maynor1024.live_
+_https://chatgpt-plus.top_
 
 ![image-20241101085628889](https://img-
 blog.csdnimg.cn/img_convert/b82c507694f875b0a571f2015ced4bdf.png)
@@ -197,5 +197,5 @@ image-20241101085628889
 
 如果你觉得这篇文章有帮助，欢迎点赞转发，让更多同学受益！
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

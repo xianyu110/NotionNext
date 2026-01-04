@@ -135,7 +135,7 @@ const SYSTEM_PAGES = [
           rich_text: [
             { text: { content: '🌐 AI 平台: ' } },
             {
-              text: { content: 'https://agi2.maynor1024.live', link: { url: 'https://agi2.maynor1024.live' } }
+              text: { content: 'https://chatgpt-plus.top', link: { url: 'https://chatgpt-plus.top' } }
             }
           ]
         }

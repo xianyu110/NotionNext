@@ -80,5 +80,5 @@ Voice则因安全考虑推迟了发布。
 
 ChatGPT国内使用：https://new.chatgpt-plus.top/
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

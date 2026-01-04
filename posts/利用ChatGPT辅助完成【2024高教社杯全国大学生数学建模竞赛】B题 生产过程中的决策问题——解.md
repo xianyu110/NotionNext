@@ -91,5 +91,5 @@ https://new.chatgpt-plus.top/
 
 ChatGPT 辅助解题，可以大幅提升效率，特别是在编写模型代码和进行仿真测试时，为竞赛提供强大的技术支持。
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

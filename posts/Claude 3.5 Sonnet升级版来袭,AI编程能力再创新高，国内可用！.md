@@ -113,11 +113,11 @@ Sonnet重新生成的双十一数据可视化图表
 通过这些实例，我们可以清晰地看到Claude 3.5
 Sonnet在代码生成、问题解决和数据可视化方面的卓越表现。它不仅能快速响应用户需求，还能主动发现并修复问题，为用户提供全方位的智能辅助。这无疑将为开发者和数据分析师带来更高效、更智能的工作体验。
 
-国内访问地址： https://agi.maynor1024.live/
+国内访问地址： https://chatgpt-plus.top/
 
 ![Claude 3.5 Sonnet国内访问地址界面截图](https://img-
 blog.csdnimg.cn/img_convert/b40253354e07ac8cd2b4a1c0f574a59d.png) Claude 3.5
 Sonnet国内访问地址界面截图
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

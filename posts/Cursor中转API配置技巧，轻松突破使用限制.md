@@ -117,5 +117,5 @@ sonnet-3.5验证结果
 
 验证成功！
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 

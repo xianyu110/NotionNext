@@ -20,7 +20,7 @@ status: "Published"
 
 ### GPT国内使用:
 
-<https://agi.maynor1024.live/list/#/>  
+<https://chatgpt-plus.top/list/#/>  
 ![image-20250326150052040](https://i-blog.csdnimg.cn/img_convert/9e9256a0cc2f0d0419e750fa07f12053.png)  
 **注释：** _无需繁琐的文字输入，只需对着麦克风说出你的想法，ChatGPT-4o 即可根据语音指令生成图像，让创作更加自然流畅。_
 
@@ -88,5 +88,5 @@ status: "Published"
 
 ### GPT国内使用:
 
-<https://agi.maynor1024.live/list/#/>
+<https://chatgpt-plus.top/list/#/>
 

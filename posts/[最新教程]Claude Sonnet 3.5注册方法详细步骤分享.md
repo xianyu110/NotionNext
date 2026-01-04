@@ -114,5 +114,5 @@ image-20240723120125741
   3. **官方原版镜像** ：支持换号，3小时内可用40次，确保用户体验不间断。 
   4. **支持artifact** 。支持opus/sonnet/haiku等cladue最新模型。 
 
-本文由[ mdnice ](https://mdnice.com/?platform=4)多平台发布
+
 
